@@ -1,4 +1,5 @@
 MotionSensor_POC
+
 Overview
 MotionSensor_POC is an iOS application that leverages Apple's Vision API to capture human body pose points in real-time. The app allows users to upload images from their camera roll or capture live images using the device’s camera. It then detects body poses, draws points at the detected body positions, and sends this information to a local server using the OSC (Open Sound Control) protocol. A PD (Pure Data) patch is configured to receive the pose points and display them on its console.
 
