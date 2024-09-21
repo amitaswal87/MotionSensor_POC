@@ -8,6 +8,7 @@
 import Foundation
 import SwiftOSC
 
+let serverIP = "192.168.178.116"
 
 class OSCManager {
 
@@ -19,7 +20,7 @@ class OSCManager {
         self.port = port
         
         // Initialize OSC Client with localhost (127.0.0.1) and port
-        self.client = OSCClient(address: "192.168.178.116", port: port)
+        self.client = OSCClient(address: serverIP, port: port)
         
         // test on local app
 //        // Initialize OSC Server and listen on the same port
