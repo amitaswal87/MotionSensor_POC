@@ -54,6 +54,7 @@ A Pure Data (PD) patch is pre-configured to listen for incoming pose data on por
 
 Ensure that both the iOS device and the Mac machine running the PD patch are on the same local network.
 Update the app’s IP address to match the IP of your local Mac machine before running the app.
+**Note - Ensure the lighting conditions are good and complete body is exposed on the camera for pose detection. With small part of body exposed, it might not detect pose correctly**
 
 **Contributing**
 
