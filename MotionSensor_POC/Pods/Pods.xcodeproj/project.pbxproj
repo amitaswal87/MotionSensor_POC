@@ -58,10 +58,10 @@
 		363251272DAE4ADAB03599B742126844 /* SwiftOSC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftOSC; path = SwiftOSC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		386941349522659E86B8D51D5E3C0B52 /* SwiftOSC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftOSC.h; path = Framework/iOS/SwiftOSC.h; sourceTree = "<group>"; };
 		3F28ED7364C5B9929E2FD556A03BE704 /* SwiftOSC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftOSC-dummy.m"; sourceTree = "<group>"; };
-		4151C192EBAF815848BC3965478BBBEC /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.c; sourceTree = "<group>"; };
+		4151C192EBAF815848BC3965478BBBEC /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = yudpsocket.c; path = Framework/SwiftOSC/Communication/ysocket/yudpsocket.c; sourceTree = "<group>"; };
 		535A4311FE3180C530B065E0C01ED496 /* Pods-MotionSensor_POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MotionSensor_POC.release.xcconfig"; sourceTree = "<group>"; };
 		5ECF519C9DAC245E9203A3B7C5221916 /* SwiftOSC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftOSC.modulemap; sourceTree = "<group>"; };
-		63B6E5C5AD082538406C25A4FD38E9B5 /* Pods-MotionSensor_POC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MotionSensor_POC"; path = Pods_MotionSensor_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63B6E5C5AD082538406C25A4FD38E9B5 /* Pods_MotionSensor_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionSensor_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E92E3DA31C3CD84D09DE4B58E7DD04 /* Pods-MotionSensor_POC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MotionSensor_POC-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		85B1BE47F3E9A3B0346FE64F4D0170DE /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = Framework/SwiftOSC/Types/Bool.swift; sourceTree = "<group>"; };
@@ -69,7 +69,7 @@
 		8AA162F20C8AD7FA096B71DFB8CBDB25 /* SwiftOSC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftOSC-Info.plist"; sourceTree = "<group>"; };
 		91003902CF4312B0297F45EA1AEAF855 /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Framework/SwiftOSC/Types/Blob.swift; sourceTree = "<group>"; };
 		9BC7F2DA11B71E9C5BC6721F3331D11D /* Float.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Float.swift; path = Framework/SwiftOSC/Types/Float.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F4629D49A39B7E5AA5815F334E5B145 /* OSCBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OSCBundle.swift; path = Framework/SwiftOSC/Elements/OSCBundle.swift; sourceTree = "<group>"; };
 		A59EF5C6ED458A3487C3278AA2964775 /* Pods-MotionSensor_POC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MotionSensor_POC-umbrella.h"; sourceTree = "<group>"; };
 		A6DFAB0B46C6A3682E710CE01EA908B7 /* Pods-MotionSensor_POC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MotionSensor_POC-frameworks.sh"; sourceTree = "<group>"; };
@@ -136,7 +136,6 @@
 				EF9E114D9F04EC2AE4EFBF35D4C0587D /* yudpsocket.swift */,
 				95996E0CD7170960AD421221C006F1E5 /* Support Files */,
 			);
-			name = SwiftOSC;
 			path = SwiftOSC;
 			sourceTree = "<group>";
 		};
@@ -218,7 +217,7 @@
 		FF536B569A3B32D2F5BA6F7A4CFB37E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				63B6E5C5AD082538406C25A4FD38E9B5 /* Pods-MotionSensor_POC */,
+				63B6E5C5AD082538406C25A4FD38E9B5 /* Pods_MotionSensor_POC.framework */,
 				363251272DAE4ADAB03599B742126844 /* SwiftOSC */,
 			);
 			name = Products;
@@ -281,7 +280,7 @@
 			);
 			name = "Pods-MotionSensor_POC";
 			productName = Pods_MotionSensor_POC;
-			productReference = 63B6E5C5AD082538406C25A4FD38E9B5 /* Pods-MotionSensor_POC */;
+			productReference = 63B6E5C5AD082538406C25A4FD38E9B5 /* Pods_MotionSensor_POC.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -302,7 +301,6 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			minimizedProjectReferenceProxies = 0;
 			productRefGroup = FF536B569A3B32D2F5BA6F7A4CFB37E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -430,7 +428,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -568,7 +566,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
