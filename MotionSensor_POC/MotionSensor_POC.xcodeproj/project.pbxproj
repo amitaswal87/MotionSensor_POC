@@ -13,6 +13,8 @@
 		18021B7F2C9EDF20003F8A6A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18021B7E2C9EDF20003F8A6A /* Base */; };
 		18021B812C9EDF21003F8A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18021B802C9EDF21003F8A6A /* Assets.xcassets */; };
 		18021B842C9EDF21003F8A6A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18021B832C9EDF21003F8A6A /* Base */; };
+		18021B8C2C9EE0E0003F8A6A /* OSCManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18021B8B2C9EE0E0003F8A6A /* OSCManager.swift */; };
+		18021B8E2C9EE168003F8A6A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18021B8D2C9EE168003F8A6A /* Extensions.swift */; };
 		7D10A182CD31E2F0BA83EBCA /* Pods_MotionSensor_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362250772018F563C2AFF53 /* Pods_MotionSensor_POC.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		18021B802C9EDF21003F8A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18021B832C9EDF21003F8A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18021B852C9EDF21003F8A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18021B8B2C9EE0E0003F8A6A /* OSCManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSCManager.swift; sourceTree = "<group>"; };
+		18021B8D2C9EE168003F8A6A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		365B83B89ECA4DDB65074D36 /* Pods-MotionSensor_POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionSensor_POC.debug.xcconfig"; path = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC.debug.xcconfig"; sourceTree = "<group>"; };
 		BBDD235BB7587F5FD2C21DA3 /* Pods-MotionSensor_POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionSensor_POC.release.xcconfig"; path = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC.release.xcconfig"; sourceTree = "<group>"; };
 		C362250772018F563C2AFF53 /* Pods_MotionSensor_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionSensor_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +70,8 @@
 				18021B772C9EDF20003F8A6A /* AppDelegate.swift */,
 				18021B792C9EDF20003F8A6A /* SceneDelegate.swift */,
 				18021B7B2C9EDF20003F8A6A /* ViewController.swift */,
+				18021B8B2C9EE0E0003F8A6A /* OSCManager.swift */,
+				18021B8D2C9EE168003F8A6A /* Extensions.swift */,
 				18021B7D2C9EDF20003F8A6A /* Main.storyboard */,
 				18021B802C9EDF21003F8A6A /* Assets.xcassets */,
 				18021B822C9EDF21003F8A6A /* LaunchScreen.storyboard */,
@@ -206,6 +212,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18021B8E2C9EE168003F8A6A /* Extensions.swift in Sources */,
+				18021B8C2C9EE0E0003F8A6A /* OSCManager.swift in Sources */,
 				18021B7C2C9EDF20003F8A6A /* ViewController.swift in Sources */,
 				18021B782C9EDF20003F8A6A /* AppDelegate.swift in Sources */,
 				18021B7A2C9EDF20003F8A6A /* SceneDelegate.swift in Sources */,
