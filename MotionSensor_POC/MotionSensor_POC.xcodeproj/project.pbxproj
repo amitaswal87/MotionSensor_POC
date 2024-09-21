@@ -13,6 +13,7 @@
 		18021B7F2C9EDF20003F8A6A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18021B7E2C9EDF20003F8A6A /* Base */; };
 		18021B812C9EDF21003F8A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18021B802C9EDF21003F8A6A /* Assets.xcassets */; };
 		18021B842C9EDF21003F8A6A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 18021B832C9EDF21003F8A6A /* Base */; };
+		7D10A182CD31E2F0BA83EBCA /* Pods_MotionSensor_POC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C362250772018F563C2AFF53 /* Pods_MotionSensor_POC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		18021B802C9EDF21003F8A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18021B832C9EDF21003F8A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18021B852C9EDF21003F8A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		365B83B89ECA4DDB65074D36 /* Pods-MotionSensor_POC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionSensor_POC.debug.xcconfig"; path = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC.debug.xcconfig"; sourceTree = "<group>"; };
+		BBDD235BB7587F5FD2C21DA3 /* Pods-MotionSensor_POC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MotionSensor_POC.release.xcconfig"; path = "Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC.release.xcconfig"; sourceTree = "<group>"; };
+		C362250772018F563C2AFF53 /* Pods_MotionSensor_POC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MotionSensor_POC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D10A182CD31E2F0BA83EBCA /* Pods_MotionSensor_POC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				18021B762C9EDF20003F8A6A /* MotionSensor_POC */,
 				18021B752C9EDF20003F8A6A /* Products */,
+				747F37B2422351ED4691D367 /* Pods */,
+				F9630CD019DE1FE776E7815F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = MotionSensor_POC;
 			sourceTree = "<group>";
 		};
+		747F37B2422351ED4691D367 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365B83B89ECA4DDB65074D36 /* Pods-MotionSensor_POC.debug.xcconfig */,
+				BBDD235BB7587F5FD2C21DA3 /* Pods-MotionSensor_POC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F9630CD019DE1FE776E7815F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C362250772018F563C2AFF53 /* Pods_MotionSensor_POC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18021B882C9EDF21003F8A6A /* Build configuration list for PBXNativeTarget "MotionSensor_POC" */;
 			buildPhases = (
+				5A6E509A04381AEA8BBE5673 /* [CP] Check Pods Manifest.lock */,
 				18021B702C9EDF20003F8A6A /* Sources */,
 				18021B712C9EDF20003F8A6A /* Frameworks */,
 				18021B722C9EDF20003F8A6A /* Resources */,
+				49AC0EA6879C968B3CDE7EF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49AC0EA6879C968B3CDE7EF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MotionSensor_POC/Pods-MotionSensor_POC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A6E509A04381AEA8BBE5673 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MotionSensor_POC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18021B702C9EDF20003F8A6A /* Sources */ = {
@@ -287,12 +355,14 @@
 		};
 		18021B892C9EDF21003F8A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365B83B89ECA4DDB65074D36 /* Pods-MotionSensor_POC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FE62HN6PY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotionSensor_POC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -315,12 +385,14 @@
 		};
 		18021B8A2C9EDF21003F8A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBDD235BB7587F5FD2C21DA3 /* Pods-MotionSensor_POC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FE62HN6PY;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MotionSensor_POC/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
